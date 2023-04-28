@@ -52,7 +52,7 @@ const demoDisk = () => ({
             },
           {
             name: ['PACMAN', 'pac-man'], // player can refer to this item by any of these names
-            desc: `Classic pacman yellow cabinet. The screen flickers and the top 3 high scores belong to XKD.
+            desc: `Classic pacman yellow cabinet. The screen flickers and the top 3 high scores belong to XKD. Suddenly the screen goes dark and reads WELCOME TO YOUR ADVENTURE. THERE IS A VIRUS THAT IS INFECTING ALL OF THE MACHINES AND IT IS YOUR MISSION TO STOP IT. 
   
             There's **SOMETHING SHINY** next to the joystick.`,
             block: `It's far too large for you to carry.`, // optional reason player cannot pick up this item

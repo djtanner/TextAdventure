@@ -11,3 +11,9 @@ Arcade Adventure is a browser text-based adventure game.
 
 * Game engine - https://github.com/okaybenji/text-engine 
 * ASCII art modified from - https://www.asciiart.eu/video-games/pacman
+
+
+Changes to the original source code -
+
+* retro.css file was modified to add margin-right
+* demo-disk.js was modified for story content and gameplay functionality

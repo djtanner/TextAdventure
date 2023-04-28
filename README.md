@@ -7,7 +7,7 @@
 
 
 
-Arcade Adventure is a browser text-base adventure game.
+Arcade Adventure is a browser text-based adventure game.
 
 * Game engine - https://github.com/okaybenji/text-engine 
 * ASCII art modified from - https://www.asciiart.eu/video-games/pacman

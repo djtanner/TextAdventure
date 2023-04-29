@@ -226,7 +226,7 @@ const demoDisk = () => ({
         To the **WEST** is the main Arcade, and to the **EAST** is a door with a sign **STAFF ONLY** and a **KEYPAD** next to it.`,
         exits: [
           {dir: 'west', id: 'arcade'},
-          {dir: 'east', id: 'staffroom'},
+          {dir: 'east', id: 'staffroom', block: `The door is locked, but you see an access keypad on the wall.`},
         ],
         items: [
           {

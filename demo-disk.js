@@ -36,7 +36,7 @@ const demoDisk = () => ({
         // here, we use it to change the arcade's description
         onLook: () => {
           const room = getRoom('arcade');
-          room.desc = `You are currently standing in the arcade. There's a **PACMAN** machine to your right, and rows of **PINBALL** machines to your left bathing the room in fluoroscent lights and chaotic sounds. 
+          room.desc = `You are currently standing in the arcade. There's a **PACMAN** machine to your right, and rows of **PINBALL** machines to your left drowning the room in fluoroscent lights and chaotic sounds. 
   
           Type **ITEMS** to see a list of items in the arcade. Or type **HELP** to see what else you can do!`;
         },
@@ -71,7 +71,7 @@ const demoDisk = () => ({
                 onUse() {
                   const room = getRoom(disk.roomId);
                  if (room.id === 'maintenance') {
-                    println(`You unlock the lockbox! Inside is a piece of paper with the arrows up up down down left right left right written on it. Could this be the key to destroying the virus?`);
+                    println(`You unlock the lockbox! Inside is a piece of **PAPER** with the arrows up up down down left right left right written on it. Could this be the key to destroying the virus?`);
                     maintenance.items.push({
                       name: ['paper','contra code'],
                       isTakeable:true,
@@ -84,7 +84,7 @@ const demoDisk = () => ({
                       
                     })
                   } else {
-                    println(`There's nothing to unlock here.`);
+                    println(`You can't use that here. There is nothing to unlock.`);
                   }
                 },
                 desc: `It's a silver **KEY**!`,
@@ -301,11 +301,9 @@ const demoDisk = () => ({
         ],
         items:[
             {
-                name: 'lockbox',
-                desc: 'There is a keyhole in the front. You wonder what could be inside.'
+                name: 'Chuck the Plant',
+                desc: 'There is a large tentacle-like cactus plant.'
             }
-
-
         ]
         
     },
